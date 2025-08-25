@@ -8,15 +8,15 @@ public class DbExecute {
 		
 //		DbOperations.displayInfo();
 		
-//		int ts = 0;
-//		ts += DbOperations.insertInfo(9, "watch", 1400);
-//		ts += DbOperations.insertInfo(10, "printer", 2000);
-//		if(ts > 0) {
-//			System.out.println(ts+ " rows are added in the table");
-//		}
-//		else {
-//			System.out.println("No rows are affected and insertion operation did not execute");
-//		}
+		int ts = 0;
+		ts += DbOperations.insertInfo(9, "watch", 1400);
+		ts += DbOperations.insertInfo(10, "printer", 2000);
+		if(ts > 0) {
+			System.out.println(ts+ " rows are added in the table");
+		}
+		else {
+			System.out.println("No rows are affected and insertion operation did not execute");
+		}
 		
 
 //		System.out.println(ts+ " rows are added successfully");
